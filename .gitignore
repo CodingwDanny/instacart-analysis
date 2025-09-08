@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/*.db
+data/raw/*
+data/processed/*
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
