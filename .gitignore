@@ -12,3 +12,5 @@ data/processed/*
 
 # OS
 .DS_Store
+# OS / editors
+.DS_Store
