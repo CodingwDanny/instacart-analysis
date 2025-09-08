@@ -45,7 +45,6 @@ def main():
     print(f"Loaded orders: {len(df):,} rows")
 
     # Tablas de líneas (grandes): prior + train
-    # Si tu RAM es limitada, usa chunks (descomenta el bloque CHUNKS más abajo)
     for table in ["order_products_prior", "order_products_train"]:
         csv_path = RAW / FILES[table]
         print(f"Loading {table} in chunks...")
